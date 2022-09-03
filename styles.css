@@ -39,9 +39,9 @@ article {
   flex-direction: column;
   width: 35%;
 }
-article > span {
+.myName {
   font-size: 19px;
-  font-weight: 500;
+  font-weight: 300;
   padding: 10px 0;
   color: #568744;
 }
@@ -53,7 +53,7 @@ article > h1 {
 }
 article span {
   color: #568744;
-  font-weight: 600;
+  font-weight: 800;
 }
 article p {
   font-size: 20px;
@@ -72,7 +72,7 @@ article p {
 .information {
   display: flex;
   justify-content: space-evenly;
-  width: 90%;
+  width: 85%;
   margin-top: 5rem;
   font-size: 19px;
 }
@@ -83,16 +83,16 @@ article p {
   font-size: 24px;
 }
 .info-box {
-  width: 525px;
-  height: 215px;
-  padding: 20px;
+  width: 600px;
+  height: 240px;
+  padding: 40px;
   background-color: #fff;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
 }
 .contact-box {
-  width: 525px;
-  height: 215px;
-  padding: 20px;
+  width: 600px;
+  height: 240px;
+  padding: 40px;
   background-color: #fff;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
 }
@@ -105,10 +105,8 @@ font-weight: 600;
 }
 .text-green {
   color: #568744;
-  text-align: left;
 }
 .center {
-  text-align: center;
   margin-top: -15px;
   padding-bottom: 20px;
 }
