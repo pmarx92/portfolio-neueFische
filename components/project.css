@@ -1,0 +1,40 @@
+.project-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15rem;
+}
+
+.project-card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 85%;
+  font-size: 19px;
+}
+.project-content {
+  flex-wrap: wrap;
+  width: 600px;
+  height: 325px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
+}
+.project-content__headline--color {
+  color: #568744;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+.project-content__span--fontweight {
+  font-weight: 600;
+}
+.project-content__paragraph--fontsize {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.project-section__link--positioning {
+  padding: 15px;
+  margin-top: 10rem;
+}

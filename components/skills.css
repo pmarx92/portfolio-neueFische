@@ -1,0 +1,11 @@
+.skill-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.skill-section__article {
+  text-align: center;
+  margin-top: 10rem;
+}
