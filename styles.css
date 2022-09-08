@@ -31,3 +31,13 @@ p {
 .footer-content__span--fontweight {
   font-weight: 600;
 }
+@media (min-width: 440px) {
+  .footer-content {
+flex-direction: column;
+  }
+}
+@media (min-width: 945px) {
+  .footer-content {
+flex-direction: row;
+  }
+}

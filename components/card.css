@@ -60,7 +60,7 @@
     min-width: 460px;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 945px) {
   .information__cards--flex {
     flex-direction: row;
   }
