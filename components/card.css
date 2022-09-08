@@ -1,8 +1,8 @@
 .information-card {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 85%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 5rem;
   font-size: 19px;
 }
@@ -12,8 +12,7 @@
   font-size: 24px;
 }
 .information-card__content {
-  flex-wrap: wrap;
-  width: 600px;
+  width: 350px;
   height: 280px;
   padding: 40px;
   background-color: #fff;
@@ -28,8 +27,8 @@
   font-weight: 600;
 }
 .contact-card {
-  flex-wrap: wrap;
-  width: 600px;
+  margin-top: 1rem;
+  width: 350px;
   height: 280px;
   padding: 40px;
   background-color: #fff;
