@@ -6,7 +6,7 @@
   font-size: 19px;
 }
 .information-card__headline {
-  color: #568744;
+  color: var(--secondary-text-color);
   margin-bottom: 25px;
   font-size: 24px;
 }
@@ -14,7 +14,7 @@
   padding: 40px;
   margin-bottom: 2rem;
   margin: 20px;
-  background-color: #fff;
+  background-color: var(--white);
   box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
   min-height: 250px;
   min-width: 395px;
@@ -28,7 +28,7 @@
 .information-card__paragraph--color {
   font-weight: 600;
   margin-top: 1.5rem;
-  color: #568744;
+  color: var(--secondary-text-color);
 }
 .information-card__span--fontweight {
   font-weight: 600;
@@ -37,13 +37,13 @@
   padding: 40px;
   margin-bottom: 2rem;
   margin: 20px;
-  background-color: #fff;
+  background-color: var(--white);
   box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
   min-height: 250px;
   min-width: 395px;
 }
 .contact-card__headline {
-  color: #568744;
+  color: var(--secondary-text-color);
   margin-bottom: 25px;
   font-size: 24px;
 }

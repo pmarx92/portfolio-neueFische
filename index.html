@@ -10,28 +10,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    <script src="js.js" defer></script>
     <title>Patrick Marx - Portfolio</title>
 </head>
 
-<body>
-    <header class="person-section">
-        <nav class="person-section__navbar">
+<body class="darkmode">
+    <header class="person-section darkmode" data-js="darkmode-header">
+        <nav class="person-section__navbar darkmode-light" data-js="darkmode-light">
             <img class="person-section__img" src="img/Komponente 2 – 1.svg"
                 alt="icon with green background and a white big P">
-            <span class="person-section__name">Patrick Marx</span>
+            <span class="person-section__name">Patrick Marx</span> 
+            <div class="person-section__button--position">
+            <button class="person-section-navbar__button" data-js="btn">Dark Mode</button>
+        </div>
         </nav>
         <div class="person-section__content">
             <article class="person-section__article">
-                <h1 class="person-section__headline"> Web Development Bootcamp Teilnehmer - <span
+                <h1 class="person-section__headline darkmode-textColor" data-js="darkmode-textColor--headline">Web Development Bootcamp Teilnehmer - <span
                         class="person-section__span--color">neue fische</span></h1>
 
-                <p class="person-section__paragraph--color"> Ich habe vor einem Jahr mit dem Programmieren
+                <p class="person-section__paragraph--color darkmode-textColor" data-js="darkmode-textColor--content"> Ich habe vor einem Jahr mit dem Programmieren
                     angefangen.
                     Anfangs nur mit HTML & CSS, mittlerweile
                     auch
                     mit JavaScript sowie React.</p>
 
-                <p class="person-section__paragraph--color"> Ich nehme ab dem 29.08.2022 - 22.11.2022 an einem
+                <p class="person-section__paragraph--color darkmode-textColor"> Ich nehme ab dem 29.08.2022 - 22.11.2022 an einem
                     Bootcamp
                     bei <span class="person-section__span--color">neue fische</span> teil. Ich
                     möchte aus meinem
@@ -45,37 +49,35 @@
         </div>
         <div class="information-card">
             <div class="information__cards--flex">
-                <div class="information-card__content">
+                <div class="information-card__content darkmode-light" data-js="darkmode-light-information">
                     <h2 class="information-card__headline">Information</h2>
-                    <p><span class="information-card__span--fontweight">Bootcamp Dauer:</span> 29.08.2022 - 22.11.2022
+                    <p class="darkmode-textColor"><span class="information-card__span--fontweight">Bootcamp Dauer:</span> 29.08.2022 - 22.11.2022
                     </p>
                     <p class="information-card__paragraph--color">Verfügbar ab: 23.11.2022</p>
                 </div>
-                <div class="contact-card">
+                <div class="contact-card darkmode-light" data-js="darkmode-light-contact">
                     <h2 class="contact-card__headline">Sie erreichen mich unter:</h2>
                     <adress>
-                        <p class="contact-card__paragraph--center"><span>Patrick Marx</span></p>
-                        <p><span class="contact-card__span--fontweight">Telefon:</span> 0176 6050 9409</p>
-                        <p><span class="contact-card__span--fontweight">E-Mail:</span> pamarx92@gmail.com</p>
-                        <p><span class="contact-card__span--fontweight">Straße:</span> Ostlandstraße 58 </p>
-                        <p><span class="contact-card__span--fontweight">Ort:</span> 24340 Eckernförde</p>
+                        <p class="contact-card__paragraph--center darkmode-textColor"><span>Patrick Marx</span></p>
+                        <p class="darkmode-textColor"><span class="contact-card__span--fontweight">Telefon:</span> 0176 6050 9409</p>
+                        <p class="darkmode-textColor"><span class="contact-card__span--fontweight">E-Mail:</span> pamarx92@gmail.com</p>
+                        <p class="darkmode-textColor"><span class="contact-card__span--fontweight">Straße:</span> Ostlandstraße 58 </p>
+                        <p class="darkmode-textColor"><span class="contact-card__span--fontweight">Ort:</span> 24340 Eckernförde</p>
                     </adress>
                 </div>
             </div>
         </div>
-
     </header>
-
     <main>
-        <section class="project-section">
+        <section class="project-section darkmode-light" data-js="darkmode-light-ProjectSection">
             <h2 class="project-section__headline--space">Projects</h2>
 
             <div class="project-card">
 
-                <div class="project-content">
+                <div class="project-content darkmode" data-js="darkmode-project">
                     <h3 class="project-content__headline--color">Schere, Stein, Papier</h3>
-                    <span class="project-content__span--fontweight">HTML / CSS & JavaScript</span>
-                    <p class="project-content__paragraph--fontsize">Mit Hilfe der oben genannten Sprachen habe ich ein
+                    <span class="project-content__span--fontweight darkmode-textColor">HTML / CSS & JavaScript</span>
+                    <p class="project-content__paragraph--fontsize darkmode-textColor">Mit Hilfe der oben genannten Sprachen habe ich ein
                         kleines "Schere, Stein, Papier" Spiel für den
                         Browser erstellt.
 
@@ -87,10 +89,10 @@
                             href="./SchereSteinPapier/index.html">Play me</a></button>
                 </div>
 
-                <div class="project-content">
+                <div class="project-content project-content--color darkmode" data-js="darkmode-projectTwo">
                     <h3 class="project-content__headline--color">Schere, Stein, Papier</h3>
-                    <span class="project-content__span--fontweight">HTML / CSS & JavaScript</span>
-                    <p class="project-content__paragraph--fontsize">Mit Hilfe der oben genannten Sprachen habe ich ein
+                    <span class="project-content__span--fontweight darkmode-textColor">HTML / CSS & JavaScript</span>
+                    <p class="project-content__paragraph--fontsize darkmode-textColor">Mit Hilfe der oben genannten Sprachen habe ich ein
                         kleines "Schere, Stein, Papier" Spiel für den
                         Browser erstellt.
 
@@ -103,19 +105,19 @@
                 </div>
             </div>
         </section>
-        <section class="skill-section">
+        <section class="skill-section darkmode-light" data-js="darkmode-light-skillSection">
             <article class="skill-section__article">
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>TailwindCSS</p>
-                <div class="space">
+                <p class="darkmode-textColor">HTML</p>
+                <p class="darkmode-textColor">CSS</p>
+                <p class="darkmode-textColor">JavaScript</p>
+                <p class="darkmode-textColor">TailwindCSS</p>
+                <div class="social-icons--position">
                     <a href="https://www.linkedin.com/in/patrick-marx-423054234/"><img
-                            class="skill-section-social--size" src="./img/linkedin.svg" alt="a linkedin icon"></a>
-                    <a href="https://github.com/pmarx92"><img class="skill-section-social--size" src="./img/github.svg"
+                            class="skill-section-social--size" src="./img/SVG/Linkedin.svg" alt="a linkedin icon"></a>
+                    <a href="https://github.com/pmarx92"><img class="skill-section-social--size" src="./img/SVG/Github.svg"
                             alt="a github icon"></a>
                     <a href="https://production.talents.neuefische.de/profile/555d7fb8-dddd-4125-bacc-d54f16b86e83"><img
-                            class="skill-section-social--size" src="./img/fish-solid.svg" alt="a fish icon"></a>
+                            class="skill-section-social--size" src="./img/SVG/Neuefische.svg" alt="a fish icon"></a>
                 </div>
             </article>
         </section>

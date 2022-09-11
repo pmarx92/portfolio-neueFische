@@ -1,15 +1,17 @@
+.social-icons--position {
+  margin-top: 3rem;
+}
 .skill-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  margin: 0 auto;
 }
 .skill-section__article {
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 7rem;
 }
-.skill-section-social--size{
-  width: 4%;
-  margin-left: 2rem;
+.skill-section-social--size {
+  width: 9%;  
+  padding: 0 25px;
+  margin-bottom: 7rem;
 }

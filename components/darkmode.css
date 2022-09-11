@@ -1,0 +1,10 @@
+.darkmode {
+  background-color: var(--secondary-background-color__dark);
+}
+.darkmode-light {
+
+  background-color: var(--secondary-background-color);
+}
+.darkmode-textColor {
+  color: #fff;
+}
