@@ -7,11 +7,36 @@
   align-items: center;
 }
 .skill-section__article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin-top: 7rem;
 }
+.skill-section__articleCard--grouped {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+
+}
+.skill-section__article p {
+  padding: 8px;
+  margin-top: 15px;
+  border-radius: 20px;
+  border: 2px solid var(--secondary-text-color);
+  border-color: var(--secondary-text-color);
+  color: var(--white);
+  background-color: var(--secondary-background-color);
+}
+.skill-section__article p:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px var(--secondary-text-color);
+  transition: 0.25s;
+}
+
 .skill-section-social--size {
-  width: 9%;  
+  width: 9%;
   padding: 0 25px;
   margin-bottom: 7rem;
 }

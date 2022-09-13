@@ -41,7 +41,7 @@ p {
   font-weight: 600;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 370px) {
   .footer-content {
     flex-direction: column;
   }

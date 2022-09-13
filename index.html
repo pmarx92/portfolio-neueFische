@@ -53,7 +53,7 @@
                     <h2 class="information-card__headline">Information</h2>
                     <p class="darkmode-textColor"><span class="information-card__span--fontweight">Bootcamp Dauer:</span> 29.08.2022 - 22.11.2022
                     </p>
-                    <p class="information-card__paragraph--color">Verfügbar ab: 23.11.2022</p>
+                    <p class="information-card__paragraph--color" data-js="neueFische-span--color">Verfügbar ab: 23.11.2022</p>
                 </div>
                 <div class="contact-card darkmode-light" data-js="darkmode-light-contact">
                     <h2 class="contact-card__headline">Sie erreichen mich unter:</h2>
@@ -107,10 +107,15 @@
         </section>
         <section class="skill-section darkmode-light" data-js="darkmode-light-skillSection">
             <article class="skill-section__article">
-                <p class="darkmode-textColor">HTML</p>
-                <p class="darkmode-textColor">CSS</p>
-                <p class="darkmode-textColor">JavaScript</p>
-                <p class="darkmode-textColor">TailwindCSS</p>
+                <div class="skill-section__articleCard--grouped">
+                <p class="darkmode-textColor" data-js="test">HTML</p>
+                <p class="darkmode-textColor" data-js="test">CSS</p>
+            </div> 
+        <div class="skill-section__articleCard--grouped"> 
+                <p class="darkmode-textColor" data-js="test">JavaScript</p>
+                <p class="darkmode-textColor" data-js="test">TailwindCSS</p>
+            </div>
+
                 <div class="social-icons--position">
                     <a href="https://www.linkedin.com/in/patrick-marx-423054234/"><img
                             class="skill-section-social--size" src="./img/SVG/Linkedin.svg" alt="a linkedin icon"></a>
@@ -121,20 +126,19 @@
                 </div>
             </article>
         </section>
-
     </main>
 
     <footer>
-        <address class="footer-content">
-            <p class="footer-content__headline--color"><span class="footer-content__span--fontweight">Telefon:</span>
-                0176 6050 9409</p>
-            <p class="footer-content__headline--color"><span class="footer-content__span--fontweight">E-Mail:</span>
-                pamarx92@gmail.com</p>
-            <p class="footer-content__headline--color"><span class="footer-content__span--fontweight">Straße:</span>
-                Ostlandstraße 58 </p>
-            <p class="footer-content__headline--color"><span class="footer-content__span--fontweight">Ort:</span> 24340
-                Eckernförde</p>
-        </address>
+        <article class="footer-content">
+            <span class="footer-content__headline--color"><span class="footer-content__span--fontweight">Telefon:</span>
+                0176 6050 9409</span>
+            <span class="footer-content__headline--color"><span class="footer-content__span--fontweight">E-Mail:</span>
+                pamarx92@gmail.com</span>
+            <span class="footer-content__headline--color"><span class="footer-content__span--fontweight">Straße:</span>
+                Ostlandstraße 58 </span>
+            <span class="footer-content__headline--color"><span class="footer-content__span--fontweight">Ort:</span> 24340
+                Eckernförde</span>
+        </article>
     </footer>
 </body>
 

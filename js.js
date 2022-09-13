@@ -9,29 +9,30 @@ const darkmodeProject = document.querySelector('[data-js="darkmode-project"]');
 const darkmodeProjectTwo = document.querySelector('[data-js="darkmode-projectTwo"]');
 const darkmodeInformationCard = document.querySelector('[data-js="darkmode-light-information"]');
 const darkmodeContactCard = document.querySelector('[data-js="darkmode-light-contact"]');
+const neueFischeSpan = document.querySelector('[data-js="neueFische-span--color"]');
+
 
 
 function removeAllColors() {
-  headerDarkmode.classList.remove('darkmode');
-  darkmodeProject.classList.remove('darkmode');
-  darkmodeProjectTwo.classList.remove('darkmode');
-  darkmodeNavbar.classList.remove('darkmode-light');
+  document.querySelectorAll('.darkmode').forEach(element => element.classList.remove('darkmode'));
+  document.querySelectorAll('.darkmode-light').forEach(element => element.classList.remove('darkmode-light'));
+
   darkmodeTextColor.classList.remove('darkmode-textColor');
-  darkmodeProjectSection.classList.remove('darkmode-light');
-  darkmodeSkillSection.classList.remove('darkmode-light');
-  darkmodeInformationCard.classList.remove('darkmode-light');
-  darkmodeContactCard.classList.remove('darkmode-light');
+
 
   addColor();
 }
 
 function addColor() {
-  document.querySelectorAll('p').forEach(e => e.style.color = "var(--primary-text-color)");
-  document.querySelectorAll('body').forEach(e => e.style.backgroundColor = "var(--white)");
-  document.querySelectorAll('main').forEach(e => e.style.backgroundColor = "var(--white)");
-
-
-
+  document.querySelectorAll('p').forEach(element => element.style.color = "var(--primary-text-color)");
+  document.querySelector('body').style.backgroundColor = "var(--primary-background-color)";
+  document.querySelector('main').style.backgroundColor = "var(--white)";
+  document.querySelectorAll('[data-js="test"]').forEach(element => element.style.color = "var(--primary-text-color)");
+  document.querySelectorAll('[data-js="test"]').forEach(element => element.style.backgroundColor = "var(--primary-background-color");
+  neueFischeSpan.style.color = '#568744';
+  darkmodeButton.innerHTML = 'Dark Mode';
+  darkmodeButton.style.color = 'Black';
+  darkmodeButton.style.backgroundColor = '#fbfbfb';
 }
 
 

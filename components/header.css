@@ -67,7 +67,7 @@
   font-weight: 800;
 }
 .person-section__paragraph--color {
-  font-size: 18px;
+  font-size: 1rem;
   margin: 5px 0;
 }
 .person-section__content-img {
@@ -81,12 +81,16 @@
   overflow: hidden;
   box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
 }
+@media (min-width: 375px) {
+  .person-section__button--position {
+    width: 55%;
+  }
+}
 @media (min-width: 800px) {
   .person-section__button--position {
     width: 80%;
   }
 }
-
 @media (min-width: 1100px) {
   .person-section__content {
     display: flex;
