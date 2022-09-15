@@ -16,7 +16,6 @@ const neueFischeSpan = document.querySelector('[data-js="neueFische-span--color"
 function removeAllColors() {
   document.querySelectorAll('.darkmode').forEach(element => element.classList.remove('darkmode'));
   document.querySelectorAll('.darkmode-light').forEach(element => element.classList.remove('darkmode-light'));
-
   darkmodeTextColor.classList.remove('darkmode-textColor');
 
 
@@ -24,11 +23,11 @@ function removeAllColors() {
 }
 
 function addColor() {
-  document.querySelectorAll('p').forEach(element => element.style.color = "var(--primary-text-color)");
+  document.querySelectorAll('.darkmode-textColor').forEach(element => element.style.color = "var(--primary-text-color)");
   document.querySelector('body').style.backgroundColor = "var(--primary-background-color)";
   document.querySelector('main').style.backgroundColor = "var(--white)";
-  document.querySelectorAll('[data-js="test"]').forEach(element => element.style.color = "var(--primary-text-color)");
-  document.querySelectorAll('[data-js="test"]').forEach(element => element.style.backgroundColor = "var(--primary-background-color");
+  document.querySelectorAll('[data-js="buttonLight"]').forEach(element => element.style.color = "var(--primary-text-color)");
+  document.querySelectorAll('[data-js="buttonLight"]').forEach(element => element.style.backgroundColor = "var(--primary-background-color");
   neueFischeSpan.style.color = '#568744';
   darkmodeButton.innerHTML = 'Dark Mode';
   darkmodeButton.style.color = 'Black';

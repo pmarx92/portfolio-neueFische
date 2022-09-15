@@ -40,6 +40,19 @@
   padding: 15px;
   margin-top: 10rem;
 }
+
+.project-section__button--styling {
+  padding: 7px;
+  margin-left: 15px;
+  border-radius: 20px;
+  border: 2px solid var(--secondary-text-color);
+  border-color: var(--secondary-text-color);
+  color: var(--white);
+  background-color: var(--secondary-background-color);
+  text-decoration: none;
+}
+
+
 @media (min-width: 440px) {
   .project-card {
     flex-direction: column;
