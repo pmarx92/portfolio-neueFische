@@ -30,11 +30,11 @@
 
 .button-dark {
   background-color: var(--secondary-background-color);
-  color: var(--white)
+  color: var(--white);
 }
 .button-light {
   background-color: var(--primary-background-color);
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
 }
 .skill-dark {
   background-color: var(--secondary-background-color);

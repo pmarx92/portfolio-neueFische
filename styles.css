@@ -24,7 +24,22 @@ h3,
 p {
   color: var(--primary-text-color);
 }
-
+.pageUp {
+  position: relative;
+}
+.pageUp__btn {
+  position: absolute;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 7px;
+  margin-left: 15px;
+  border-radius: 20px;
+  border: 2px solid var(--secondary-text-color);
+  border-color: var(--secondary-text-color);
+  text-decoration: none;
+  
+}
 .footer-content {
   display: flex;
   justify-content: center;
