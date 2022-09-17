@@ -23,7 +23,11 @@ colorModeButton.addEventListener('click', () => {
   skillLight.forEach(element => element.classList.toggle('skill-light'));
 
 
-
+  if (colorModeButton.textContent === 'Dark Mode') {
+    colorModeButton.textContent = 'Light Mode';
+  } else {
+    colorModeButton.textContent = "Dark Mode";
+  }
 });
 
 
