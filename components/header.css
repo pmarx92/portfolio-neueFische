@@ -2,19 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--primary-background-color);
   width: 100%;
   padding-bottom: 5rem;
-  box-shadow: 0 1px 5px rgb(0 0 0 / 0.1);
 }
 .person-section__navbar {
   display: flex;
   align-items: center;
-  background-color: var(--white);
   margin-top: 3rem;
   width: 100%;
   height: 85px;
-  box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
 }
 .person-section__button--position {
   position: relative;
@@ -66,7 +62,7 @@
   color: var(--secondary-text-color);
   font-weight: 800;
 }
-.person-section__paragraph--color {
+.person-section__paragraph {
   font-size: 1rem;
   margin: 5px 0;
 }

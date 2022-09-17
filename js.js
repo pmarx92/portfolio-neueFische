@@ -1,4 +1,45 @@
-const body = document.querySelector('body');
+const colorModeButton = document.querySelector('[data-js="btn"]');
+const darkMode = document.querySelectorAll('.darkmode');
+const darkModeTextColor = document.querySelectorAll('.darkmode--TextColor');
+const lightModeDefault = document.querySelectorAll('.lightmodeDefault');
+const lightMode = document.querySelectorAll('.lightmode');
+const lightmodeTextColor = document.querySelectorAll('.lightmode--TextColor');
+const skillSectionLightmode = document.querySelectorAll('.skill-section-lightmode');
+const buttonDark = document.querySelectorAll('.button-dark');
+const buttonLight = document.querySelectorAll('.button-light');
+const skillDark = document.querySelectorAll('.skill-dark');
+const skillLight = document.querySelectorAll('.skill-light');
+
+colorModeButton.addEventListener('click', () => {
+
+  lightModeDefault.forEach(element => element.classList.toggle('lightmodeDefault'));
+  lightMode.forEach(element => element.classList.toggle('lightmode'));
+  lightmodeTextColor.forEach(element => element.classList.toggle('lightmode--TextColor'));
+  skillSectionLightmode.forEach(element => element.classList.toggle('skill-section-lightmode'));
+
+  buttonDark.forEach(element => element.classList.toggle('button-dark'));
+  buttonLight.forEach(element => element.classList.toggle('button-light'));
+  skillDark.forEach(element => element.classList.toggle('skill-dark'));
+  skillLight.forEach(element => element.classList.toggle('skill-light'));
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* const body = document.querySelector('body');
 const darkmodeSkillSection = document.querySelector('[data-js="darkmode-light-skillSection"]');
 const darkmodeProjectSection = document.querySelector('[data-js="darkmode-light-ProjectSection"]');
 const headerDarkmode = document.querySelector('[data-js="darkmode-header"]');
@@ -14,9 +55,7 @@ const neueFischeSpan = document.querySelector('[data-js="neueFische-span--color"
 
 
 function removeAllColors() {
-  document.querySelectorAll('.darkmode').forEach(element => element.classList.remove('darkmode'));
-  document.querySelectorAll('.darkmode-light').forEach(element => element.classList.remove('darkmode-light'));
-  darkmodeTextColor.classList.remove('darkmode-textColor');
+  darkmodeTextColor.classList.toggle('darkmode-textColor');
 
 
   addColor();
@@ -35,8 +74,4 @@ function addColor() {
 }
 
 
-
-
-
-
-darkmodeButton.addEventListener('click', removeAllColors);
+darkmodeButton.addEventListener('click', removeAllColors); */

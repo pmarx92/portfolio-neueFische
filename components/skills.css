@@ -26,8 +26,6 @@
   border-radius: 20px;
   border: 2px solid var(--secondary-text-color);
   border-color: var(--secondary-text-color);
-  color: var(--white);
-  background-color: var(--secondary-background-color);
 }
 .skill-section__article p:hover {
   transform: scale(1.1);

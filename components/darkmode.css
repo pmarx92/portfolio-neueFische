@@ -2,9 +2,45 @@
   background-color: var(--secondary-background-color__dark);
 }
 .darkmode-light {
-
   background-color: var(--secondary-background-color);
 }
-.darkmode-textColor {
-  color: #fff;
+
+
+.lightmodeDefault {
+  background-color: var(--primary-background-color);
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.1);
+}
+.lightmode {
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
+  background-color: var(--white);
+}
+.darkmode--TextColor {
+  color: var(--white);
+}
+.project-textColor {
+  color: var(--primary-text-color);
+}
+.lightmode--TextColor {
+  color: var(--primary-text-color);
+}
+.skill-section-lightmode {
+  background-color: var(--white);
+}
+
+
+.button-dark {
+  background-color: var(--secondary-background-color);
+  color: var(--white)
+}
+.button-light {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color)
+}
+.skill-dark {
+  background-color: var(--secondary-background-color);
+  color: var(--white)
+}
+.skill-light {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color)
 }
